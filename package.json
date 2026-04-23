@@ -1,0 +1,13 @@
+{
+  "name": "darioblanco-portfolio",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "npx -y http-server . -p 5173 -s",
+    "screenshot": "node scripts/screenshot.mjs",
+    "preview": "npm run serve"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0"
+  }
+}
